@@ -1,0 +1,24 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: graph
+    network: mumbai
+    source:
+      address: "0x0AF89A43A3777a36bb7f0ACe04d30Eb35D6aE9b6"
+      abi: graph
+      startBlock: 41468948
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - list
+      abis:
+        - name: graph
+          file: ./abis/graph.json
+      eventHandlers:
+        - event: list(uint256,address)
+          handler: handlelist
+      file: ./src/graph.ts
