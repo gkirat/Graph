@@ -19,7 +19,7 @@ This project demonstrates a comparison between two methods for retrieving data f
 
 ## Getting Started
 
-Please follow the links to usinggraph and usingBlockchain and there you'll find individual instructions.
+Please follow the links to [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) folders in there you'll find individual instructions.
 
 ## Code Comparison
 
