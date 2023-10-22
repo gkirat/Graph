@@ -1,8 +1,0 @@
-type list @entity(immutable: true) {
-  id: Bytes!
-  numValue: BigInt! # uint256
-  whoChanged: Bytes! # address
-  blockNumber: BigInt!
-  blockTimestamp: BigInt!
-  transactionHash: Bytes!
-}
