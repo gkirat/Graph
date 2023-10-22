@@ -47,5 +47,5 @@ Contributions are welcome. Feel free to open issues or pull requests if you have
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gkirat/Graph/blob/master/LICENSE)
 
