@@ -18,13 +18,31 @@ This project demonstrates a comparison between two methods for retrieving data f
 - Ethereum Wallet or Metamask (for the second code)
 
 ## How to setup project
--Please follow the links to [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) folders in there you'll find individual instructions.
+Please follow the instructions in the [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) directories for individual setup steps.
 
--HOW I WOULD SUGGEST TO RUN AND CHECK WHICH DATA RETIREIVAL PROCESS IS FASTER (follow the below instructions)
--Once you have started both the open them side by side like on port http://localhost:5173/ and on http://localhost:5174/ 
--Then open the console in inspect element then retrieve data from blockchain will show time in milliseconds and you'll see that using graph it will fetch the whole data from the blockchain that was ever emmited in relatively less by using normal blockchain method which only retrieves the state variable.
+**Tip:** To compare data retrieval speed between the two methods:
 
-TIP:- I have provided the [Smart Contract](https://github.com/gkirat/Graph/blob/master/graph.sol) and the [Contract address](0x0AF89A43A3777a36bb7f0ACe04d30Eb35D6aE9b6) anyone could copy and paste on remix.ide and perform write operations on the smart contract and fetch data from both the methods to see the time taken to retrieve data from both the methods and which one is better.
+1. Start both applications on different ports, e.g., http://localhost:5173/ and http://localhost:5174/.
+2. Open the browser console.
+3. Click the "Click for info" button in both applications.
+4. Observe the time taken. You'll notice that using The Graph fetches more data in less than 3 seconds, while using the normal blockchain method takes nearly 6 seconds for the same data retrieval, showing a significant difference in time efficiency.
+5. For larger data, The Graph's efficiency becomes even more apparent
+6. You could observe the difference in given images below.
+- Using normal blockchain method
+<img width="1438" alt="Screenshot 2023-10-22 at 9 22 52 PM" src="https://github.com/gkirat/Graph/assets/103166972/735e282b-ec36-4453-8c8b-2ffcce94d360">
+
+- Using The Graph method
+  <img width="1434" alt="Screenshot 2023-10-22 at 9 19 10 PM" src="https://github.com/gkirat/Graph/assets/103166972/bac0ae5d-49dd-48cd-a793-4ea07466567f">
+
+
+
+- TIP:- I have provided the [Smart Contract](https://github.com/gkirat/Graph/blob/master/graph.sol) and the [Contract address](0x0AF89A43A3777a36bb7f0ACe04d30Eb35D6aE9b6) anyone could copy and paste on remix.ide and perform write operations on the smart contract and fetch data from both the methods to see the time taken to retrieve data from both the methods and which one is better.
+
+- IMPORTANT NOTE: Please please select environment as Injected web3 and Mumbai test network in Metamask wallet because the smart contract is deployed on that.
+like shown in the image
+
+<img width="1440" alt="Screenshot 2023-10-22 at 9 13 54 PM" src="https://github.com/gkirat/Graph/assets/103166972/ebf19345-4e80-4d37-b9fa-4a148aa38cc3">
+
 
 ## Code Comparison
 
