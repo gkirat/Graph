@@ -14,7 +14,6 @@ This project demonstrates a comparison between two methods for retrieving data f
 
 ## Prerequisites
 
-- Node.js
 - React
 - Ethereum Wallet or Metamask (for the second code)
 
