@@ -5,7 +5,7 @@ This project demonstrates a comparison between two methods for retrieving data f
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
+- [How to setup project](#how-to-setup-project)
 - [Code Comparison](#code-comparison)
 - [Why The Graph?](#why-the-graph)
 - [Benefits of The Graph](#benefits-of-the-graph)
@@ -17,9 +17,14 @@ This project demonstrates a comparison between two methods for retrieving data f
 - React
 - Ethereum Wallet or Metamask (for the second code)
 
-## Getting Started
+## How to setup project
+-Please follow the links to [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) folders in there you'll find individual instructions.
 
-Please follow the links to [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) folders in there you'll find individual instructions.
+-HOW I WOULD SUGGEST TO RUN AND CHECK WHICH DATA RETIREIVAL PROCESS IS FASTER (follow the below instructions)
+-Once you have started both the open them side by side like on port http://localhost:5173/ and on http://localhost:5174/ 
+-Then open the console in inspect element then retrieve data from blockchain will show time in milliseconds and you'll see that using graph it will fetch the whole data from the blockchain that was ever emmited in relatively less by using normal blockchain method which only retrieves the state variable.
+
+TIP:- I have provided the [Smart Contract](https://github.com/gkirat/Graph/blob/master/graph.sol) and the [Contract address](0x0AF89A43A3777a36bb7f0ACe04d30Eb35D6aE9b6) anyone could copy and paste on remix.ide and perform write operations on the smart contract and fetch data from both the methods to see the time taken to retrieve data from both the methods and which one is better.
 
 ## Code Comparison
 
