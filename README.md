@@ -13,9 +13,10 @@ This project demonstrates a comparison between two methods for retrieving data f
 - [License](#license)
 
 ## Prerequisites
-
-- React
-- Ethereum Wallet or Metamask (for the second code)
+Just a gist on these topics would be nice.
+- React 
+- The Graph
+- Ether.js
 
 ## How to setup project
 Please follow the instructions in the [usingGraph](https://github.com/gkirat/Graph/blob/master/usingGraph/README.md) and [usingNormalBlockchain](https://github.com/gkirat/Graph/blob/master/usingNormalBlockchain/README.md) directories for individual setup steps.
