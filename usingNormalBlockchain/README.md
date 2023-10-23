@@ -17,15 +17,19 @@ This project demonstrates how to retrieve data from the Ethereum blockchain usin
    
    ```bash
    git clone https://github.com/gkirat/Graph.git
-2. Go to usingGraph folder:
+2. Go to Graph directory:
+
+   ```bash
+   cd Graph
+3. Go to usingNormalBlockchain directory:
 
    ```bash
    cd usingNormalBlockchain
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
    npm install
-4. Run the development server:
+5. Run the development server:
    
    ```bash
    npm run dev
